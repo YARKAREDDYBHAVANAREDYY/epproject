@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Add Equipment page</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="logo">Health Care Logistics</a>
+					<nav id="nav">
+						<a href="Home.html">Home</a>
+						<a href="Aboutus.html">About us</a>
+					</nav>
+				</div>
+			</header>
+			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+                    
+                
+		<!-- main -->
+		<form action="addequipment.jsp">
+			<section id="two">
+				<div class="inner">
+					<article>
+						<div class="content">
+							<header>
+								<h3 align = "center">ADD EQUIPMENT</h3>
+							</header>
+							 <td style="color:orange">Equipment id</td>
+							 
+                  					 <input type="text" class="form-control" name="eid" id="eqpName" placeholder="please enter equipment ID" required>
+                					 <br/>
+							 <td style="color:orange">Equipment name</td>
+							 <td>
+							 
+                					 <input type="text" class="form-control" name="ename" id="eqpid" placeholder="Please enter Equipment name" required> 
+                					 <br/>
+							 <td style="color:orange">Hospital Name</td>
+							 
+                  					 <input type="text" class="form-control" name="ehname" id="hosName" placeholder="please enter hospital name" required>
+							 <br/>
+							  <td style="color:orange">Hospital number</td>
+							 <td>
+							 
+                					 <input type="text" class="form-control" name="enumber" id="eqpid" placeholder="Please enter Equipment number" required> 
+							 <br/>
+							 <button type="submit" class="button alt">ADD EQUIPMENT</button>
+                					 <br>
+							<p></p>
+						</div>
+					</article>
+					</form>
+					<article class="alt">
+						<div class="content">
+							<header>
+								<h3></h3>
+							</header>
+							<div class="image fit">
+								<img src="https://media.mehrnews.com/d/2018/09/29/4/2912983.jpg" alt="" />
+							</div>
+							<p></p>
+						</div>
+					</article>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<section id="footer">
+				<div class="inner">
+					<header>
+						<h2>Get in Touch</h2>
+					</header>
+					<form method="post" action="#">
+						<div class="field half first">
+							<label for="name">Name</label>
+							<input type="text" name="name" id="name" />
+						</div>
+						<div class="field half">
+							<label for="email">Email</label>
+							<input type="text" name="email" id="email" />
+						</div>
+						<div class="field">
+							<label for="message">Message</label>
+							<textarea name="message" id="message" rows="3"></textarea>
+						</div>
+						<ul class="actions">
+							<li><input type="submit" value="Send Message" class="alt" /></li>
+						</ul>
+					</form>
+					
+				</div>
+			</section>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

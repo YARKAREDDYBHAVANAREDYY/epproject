@@ -1,0 +1,192 @@
+<!DOCTYPE HTML>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 24.3%;
+  margin-bottom: 10px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 5px;
+  text-align: center;
+  background-color: #000;
+  color: white;
+}
+
+.container {
+  padding: 0 10px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: black;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+
+
+<html>
+	<head>
+		<title>Manager view page</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="Managerhome.html" class="logo">Health Care Logistics</a>
+					<nav id="nav">
+						<a href="Home.html">Home</a>
+						<a href="Add.html">ADD</a>
+						<a href="View.html">VIEW</a>
+						<a href="Home.html">Logout</a>
+					</nav>
+				</div>
+			</header>
+			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+			<!-- Banner -->
+			<section id="banner">
+				<div class="inner">
+					<h1 align = "center" >WELCOME MANAGER<span><br />MANAGER VIEW PAGE<br />
+					</span></h1>
+				</div>
+			</section>
+
+		
+		
+		<h2 style="text-align:center" >view template</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://cdn.cdnparenting.com/articles/2018/08/5-Health-Tests-you-Must-Get-Done-by-your.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <ul class="actions">
+		<li><a href="viewtest.jsp" class="button alt">VIEW TESTS</a></li>
+	</ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp7n3Uq_3RULjha82TiCfOZhcW3L_RwGFspw&usqp=CAU" alt="Mike" style="width:100%">
+      <div class="container">
+        <ul class="actions">
+		<li><a href="viewequip.jsp" class="button alt">VIEW EQUIPMENTS</a></li>
+	</ul>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="https://d3tl80hy6t5toy.cloudfront.net/wp-content/uploads/sites/6/2017/08/23150804/Health-Informatics-Tech.jpg" style="width:100%">
+      <div class="container">
+        <ul class="actions">
+		<li><a href="viewtechnician.jsp" class="button alt">VIEW TECHNICIAN</a></li>
+	</ul>
+      </div>
+    </div>
+  </div>
+
+   <div class="column">
+    <div class="card">
+      <img src="https://i.dailymail.co.uk/i/newpix/2018/09/11/16/5008797800000578-6155901-image-a-17_1536680161094.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <ul class="actions">
+		<li><a href="viewuser.jsp" class="button alt">VIEW CUSTOMER</a></li>
+	</ul>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+		
+		
+
+		<!-- Footer -->
+			<section id="footer">
+				<div class="inner">
+					<header>
+						<h2>ASK US</h2>
+					</header>
+					<form method="post" action="#">
+						<div class="field half first">
+							<label for="name">Name</label>
+							<input type="text" name="name" id="name" />
+						</div>
+						<div class="field half">
+							<label for="email">Email</label>
+							<input type="text" name="email" id="email" />
+						</div>
+						<div class="field">
+							<label for="message">Query</label>
+							<textarea name="message" id="query" rows="3"></textarea>
+						</div>
+						<ul class="actions">
+							<li><input type="submit" value="Send Query" class="alt" /></li>
+						</ul>
+					</form>
+					
+				</div>
+			</section>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

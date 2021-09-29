@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Customer Register page</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="Home.html" class="logo">Health Care Logistics</a>
+					<nav id="nav">
+						<a href="Home.html">Home</a>
+						<a href="Logins.html">Login</a>
+						<a href="Aboutus.html">About us</a>
+					</nav>
+				</div>
+			</header>
+			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+		<!-- main -->
+		<form action="register.jsp">
+			<section id="two">
+				<div class="inner">
+					<article>
+						<div class="content">
+							<header>
+								<h3 align = "center">Customer Registration</h3>
+							</header>
+							 <td style="color:orange">Username</td>
+							 
+                  					 <input type="text" class="form-control" id="cususerame" name="uname" placeholder="please enter username" required>
+                					 <br/>
+							 <td style="color:orange">E-mail ID</td>
+							 <td>
+							 <br/>
+                					 <input type="text" class="form-control" id="cusmailid" name="mail" placeholder="Please enter email ID" required>
+							 <br/>
+							 <td style="color:orange">Address</td>
+							 <td>
+							 <br/>
+                					 <input type="text" class="form-control" id="cusaddress" name="add" placeholder="Please enter full-address" required>
+                					 <br/>
+							 <td style="color:orange">Mobile NO</td>
+							 <td>
+                					 <input type="text" class="form-control" id="cusmonbile" name="mob" placeholder="Please enter 10 digit number" required>
+							 <br/>
+							 <td style="color:orange">Enter Password</td>
+							 <td>
+							 <br/>
+                					 <input type="password" class="form-control" id="cusPassword" name="pwd" placeholder="Please choose strong Password" required> 
+							 <br/>
+							 <td style="color:orange">Re-enter Password</td>
+							 <td>
+							 <br/>
+                					 <input type="password" class="form-control" id="cusPassword" name="cpwd"  placeholder="Please choose strong Password" required> 
+							 <br/>
+							 <button type="submit" class="btn btn-lg btn-danger">Register</button>
+                					 <br>
+							<p></p>
+						</div>
+					</article>
+					</form>
+					<article class="alt">
+						<div class="content">
+							<header>
+								<h3></h3>
+							</header>
+							<div class="image fit">
+								<img src="https://i.dailymail.co.uk/i/newpix/2018/09/11/16/5008797800000578-6155901-image-a-17_1536680161094.jpg" alt="" />
+							</div>
+							<p></p>
+						</div>
+					</article>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<section id="footer">
+				<div class="inner">
+					<header>
+						<h2>ASK US</h2>
+					</header>
+					<form method="post" action="#">
+						<div class="field half first">
+							<label for="name">Name</label>
+							<input type="text" name="name" id="name" />
+						</div>
+						<div class="field half">
+							<label for="email">Email</label>
+							<input type="text" name="email" id="email" />
+						</div>
+						<div class="field">
+							<label for="message">Message</label>
+							<textarea name="message" id="message" rows="3"></textarea>
+						</div>
+						<ul class="actions">
+							<li><input type="submit" value="Send query" class="alt" /></li>
+						</ul>
+					</form>
+					
+				</div>
+			</section>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

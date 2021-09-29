@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 24.3%;
+  margin-bottom: 10px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 5px;
+  text-align: center;
+  background-color: #000;
+  color: white;
+}
+
+.container {
+  padding: 0 10px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: black;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+
+
+<html>
+	<head>
+		<title>About us page</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="Home.html" class="logo">Health Care Logistics</a>
+					<nav id="nav">
+						<a href="Home.html">Home</a>
+						<a href="Aboutus.html">About us</a>
+					</nav>
+				</div>
+			</header>
+			<a href="#7menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+		<h2 style="text-align:center" >Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA3gMcE8J0Q4VujurOitC95f-gvdOuL7bjHQ&usqp=CAU" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Bhavana</h2>
+        <p class="title">MANAGER</p>
+        <p>bhavana5161@gmail.com</p>
+        <ul class="actions">
+		<li><a href="#" class="button alt">Contact </a></li>
+	</ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD4UTeWWpGIxndkqPhyClv-P7eT6_y_tiKQA&usqp=CAU" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Murali</h2>
+        <p class="title">MANAGER</p>
+        <p>muralivastrala20013@gmail.com</p>
+        <ul class="actions">
+		<li><a href="#" class="button alt">Contact </a></li>
+	</ul>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="https://www.persofoto.de/apple-touch-icon-180x180.png" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Raghuram </h2>
+        <p class="title">MANAGER</p>
+        <p>raghuram.thunki@gmail.com</p>
+        <ul class="actions">
+		<li><a href="#" class="button alt">Contact </a></li>
+	</ul>
+      </div>
+    </div>
+  </div>
+
+   <div class="column">
+    <div class="card">
+      <img src="https://webstockreview.net/images/brother-clipart-brother-head-6.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Srinivas</h2>
+        <p class="title">MANAGER</p>
+        <p>srinivastikkana@gmail.com</p>
+        <ul class="actions">
+		<li><a href="#" class="button alt">Contact </a></li>
+	</ul>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+		
+		
+
+		<!-- Footer -->
+			<section id="footer">
+				<div class="inner">
+					<header>
+						<h2>ASK US</h2>
+					</header>
+					<form method="post" action="#">
+						<div class="field half first">
+							<label for="name">Name</label>
+							<input type="text" name="name" id="name" />
+						</div>
+						<div class="field half">
+							<label for="email">Email</label>
+							<input type="text" name="email" id="email" />
+						</div>
+						<div class="field">
+							<label for="messagea">Query</label>
+							<textarea name="message" id="query" rows="3"></textarea>
+						</div>
+						<ul class="actions">
+							<li><input type="submit" value="Send Query" class="alt" /></li>
+						</ul>
+					</form>
+					
+				</div>
+			</section>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Technician Register page</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="Home.html" class="logo">Health Care Logistics</a>
+					<nav id="nav">
+						<a href="Home.html">Home</a>
+						<a href="Logins.html">BOOK TECHNICIAN</a>
+						<a href="Customerbills.html">VIEW BILLS</a>
+						<a href="Home.html">Logout</a>
+					</nav>
+				</div>
+			</header>
+			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+		
+
+		<!-- main -->
+		<form action="techregister.jsp">
+			<section id="two">
+				<div class="inner">
+					<article>
+						<div class="content">
+							<header>
+								<h3 align = "center">Technician Registration</h3>
+							</header>
+							 <td style="color:orange">Username</td>
+							 
+                  					 <input type="text" class="form-control" name="uname" id="cususerame" placeholder="please enter username"/ required>
+                					 <br/>
+							 <td style="color:orange">E-mail ID</td>
+							 <td>
+							 <br/>
+                					 <input type="text" class="form-control" name="email" id="cusmailid" placeholder="Please enter email ID" required>
+							 <br/>
+							 <td style="color:orange">Address</td>
+							 <td>
+							 <br/>
+                					 <input type="text" class="form-control" name="Add" id="cusaddress" placeholder="Please enter full-address" required>
+                					 <br/>
+							 <td style="color:orange">Mobile NO</td>
+							 <td>
+                					 <input type="text" class="form-control" name="mob" id="cusmonbile" placeholder="Please enter 10 digit number" required>
+							 <br/>
+							 <td style="color:orange">Available From</td>
+							 <td>
+                					 <input type="text" class="form-control" name="Availfrom" id="cusmonbile" placeholder="Please enter start time" required>
+							 <br/>
+							 <td style="color:orange">Available To</td>
+							 <td>
+                					 <input type="text" class="form-control" name="Availto" id="cusmonbile" placeholder="Please enter end time" required>
+							 <br/>
+							 <td style="color:orange">Enter Password</td>
+							 <td>
+							 <br/>
+                					 <input type="password" class="form-control" name="pwd" id="cusPassword" placeholder="Please choose strong Password" required> 
+							 <br/>
+							 <td style="color:orange">Re-enter Password</td>
+							 <td>
+							 <br/>
+                					 <input type="password" class="form-control" name="cpwd" id="cusPassword" placeholder="Please choose strong Password" required> 
+							 <br/>
+							 <td style="color:orange">Charge</td>
+							 <td>
+							 <br/>
+                					 <input type="text" class="form-control" name="charge" id="cusPassword" placeholder="Enter the amount you charge" required> 
+							 <br/>
+							 <button type="submit" class="button alt">Register</button>
+                					 <br>
+							<p></p>
+						</div>
+					</article>
+					</form>
+					<article class="alt">
+						<div class="content">
+							<header>
+								<h3></h3>
+							</header>
+							<div class="image fit">
+								<img src="https://d3tl80hy6t5toy.cloudfront.net/wp-content/uploads/sites/6/2017/08/23150804/Health-Informatics-Tech.jpg" alt="" />
+							</div>
+							<p></p>
+						</div>
+					</article>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<section id="footer">
+				<div class="inner">
+					<header>
+						<h2>ASK US</h2>
+					</header>
+					<form method="post" action="#">
+						<div class="field half first">
+							<label for="name">Name</label>
+							<input type="text" name="name" id="name" />
+						</div>
+						<div class="field half">
+							<label for="email">Email</label>
+							<input type="text" name="email" id="email" />
+						</div>
+						<div class="field">
+							<label for="message">Message</label>
+							<textarea name="message" id="message" rows="3"></textarea>
+						</div>
+						<ul class="actions">
+							<li><input type="submit" value="Send query" class="alt" /></li>
+						</ul>
+					</form>
+					
+				</div>
+			</section>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
